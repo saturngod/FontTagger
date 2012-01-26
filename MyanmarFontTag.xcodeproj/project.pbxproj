@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD90FCDD14B97C950053E3E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD90FCDC14B97C950053E3E0 /* UIKit.framework */; };
+		AD90FCDF14B97C950053E3E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD90FCDE14B97C950053E3E0 /* Foundation.framework */; };
+		AD90FCE114B97C950053E3E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD90FCE014B97C950053E3E0 /* CoreGraphics.framework */; };
+		AD90FCE714B97C950053E3E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD90FCE514B97C950053E3E0 /* InfoPlist.strings */; };
+		AD90FCE914B97C950053E3E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD90FCE814B97C950053E3E0 /* main.m */; };
+		AD90FCED14B97C950053E3E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD90FCEC14B97C950053E3E0 /* AppDelegate.m */; };
+		AD90FCF014B97C950053E3E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD90FCEF14B97C950053E3E0 /* ViewController.m */; };
+		AD90FCF314B97C950053E3E0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD90FCF114B97C950053E3E0 /* ViewController.xib */; };
+		AD90FCFB14B980350053E3E0 /* fontTagger.m in Sources */ = {isa = PBXBuildFile; fileRef = AD90FCFA14B980350053E3E0 /* fontTagger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD90FCD814B97C950053E3E0 /* MyanmarFontTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyanmarFontTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD90FCDC14B97C950053E3E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD90FCDE14B97C950053E3E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD90FCE014B97C950053E3E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD90FCE414B97C950053E3E0 /* MyanmarFontTag-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyanmarFontTag-Info.plist"; sourceTree = "<group>"; };
+		AD90FCE614B97C950053E3E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD90FCE814B97C950053E3E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD90FCEA14B97C950053E3E0 /* MyanmarFontTag-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyanmarFontTag-Prefix.pch"; sourceTree = "<group>"; };
+		AD90FCEB14B97C950053E3E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD90FCEC14B97C950053E3E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD90FCEE14B97C950053E3E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD90FCEF14B97C950053E3E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD90FCF214B97C950053E3E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		AD90FCF914B980350053E3E0 /* fontTagger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fontTagger.h; sourceTree = "<group>"; };
+		AD90FCFA14B980350053E3E0 /* fontTagger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fontTagger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD90FCD514B97C950053E3E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD90FCDD14B97C950053E3E0 /* UIKit.framework in Frameworks */,
+				AD90FCDF14B97C950053E3E0 /* Foundation.framework in Frameworks */,
+				AD90FCE114B97C950053E3E0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD90FCCD14B97C940053E3E0 = {
+			isa = PBXGroup;
+			children = (
+				AD90FCE214B97C950053E3E0 /* MyanmarFontTag */,
+				AD90FCDB14B97C950053E3E0 /* Frameworks */,
+				AD90FCD914B97C950053E3E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD90FCD914B97C950053E3E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD90FCD814B97C950053E3E0 /* MyanmarFontTag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD90FCDB14B97C950053E3E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD90FCDC14B97C950053E3E0 /* UIKit.framework */,
+				AD90FCDE14B97C950053E3E0 /* Foundation.framework */,
+				AD90FCE014B97C950053E3E0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD90FCE214B97C950053E3E0 /* MyanmarFontTag */ = {
+			isa = PBXGroup;
+			children = (
+				AD90FCEB14B97C950053E3E0 /* AppDelegate.h */,
+				AD90FCEC14B97C950053E3E0 /* AppDelegate.m */,
+				AD90FCEE14B97C950053E3E0 /* ViewController.h */,
+				AD90FCEF14B97C950053E3E0 /* ViewController.m */,
+				AD90FCF114B97C950053E3E0 /* ViewController.xib */,
+				AD90FCE314B97C950053E3E0 /* Supporting Files */,
+				AD90FCF914B980350053E3E0 /* fontTagger.h */,
+				AD90FCFA14B980350053E3E0 /* fontTagger.m */,
+			);
+			path = MyanmarFontTag;
+			sourceTree = "<group>";
+		};
+		AD90FCE314B97C950053E3E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD90FCE414B97C950053E3E0 /* MyanmarFontTag-Info.plist */,
+				AD90FCE514B97C950053E3E0 /* InfoPlist.strings */,
+				AD90FCE814B97C950053E3E0 /* main.m */,
+				AD90FCEA14B97C950053E3E0 /* MyanmarFontTag-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD90FCD714B97C950053E3E0 /* MyanmarFontTag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD90FCF614B97C950053E3E0 /* Build configuration list for PBXNativeTarget "MyanmarFontTag" */;
+			buildPhases = (
+				AD90FCD414B97C950053E3E0 /* Sources */,
+				AD90FCD514B97C950053E3E0 /* Frameworks */,
+				AD90FCD614B97C950053E3E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyanmarFontTag;
+			productName = MyanmarFontTag;
+			productReference = AD90FCD814B97C950053E3E0 /* MyanmarFontTag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD90FCCF14B97C940053E3E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = AD90FCD214B97C940053E3E0 /* Build configuration list for PBXProject "MyanmarFontTag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD90FCCD14B97C940053E3E0;
+			productRefGroup = AD90FCD914B97C950053E3E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD90FCD714B97C950053E3E0 /* MyanmarFontTag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD90FCD614B97C950053E3E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD90FCE714B97C950053E3E0 /* InfoPlist.strings in Resources */,
+				AD90FCF314B97C950053E3E0 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD90FCD414B97C950053E3E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD90FCE914B97C950053E3E0 /* main.m in Sources */,
+				AD90FCED14B97C950053E3E0 /* AppDelegate.m in Sources */,
+				AD90FCF014B97C950053E3E0 /* ViewController.m in Sources */,
+				AD90FCFB14B980350053E3E0 /* fontTagger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD90FCE514B97C950053E3E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD90FCE614B97C950053E3E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD90FCF114B97C950053E3E0 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD90FCF214B97C950053E3E0 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD90FCF414B97C950053E3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD90FCF514B97C950053E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD90FCF714B97C950053E3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyanmarFontTag/MyanmarFontTag-Prefix.pch";
+				INFOPLIST_FILE = "MyanmarFontTag/MyanmarFontTag-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD90FCF814B97C950053E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyanmarFontTag/MyanmarFontTag-Prefix.pch";
+				INFOPLIST_FILE = "MyanmarFontTag/MyanmarFontTag-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD90FCD214B97C940053E3E0 /* Build configuration list for PBXProject "MyanmarFontTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD90FCF414B97C950053E3E0 /* Debug */,
+				AD90FCF514B97C950053E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD90FCF614B97C950053E3E0 /* Build configuration list for PBXNativeTarget "MyanmarFontTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD90FCF714B97C950053E3E0 /* Debug */,
+				AD90FCF814B97C950053E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD90FCCF14B97C940053E3E0 /* Project object */;
+}
